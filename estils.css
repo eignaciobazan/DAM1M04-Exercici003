@@ -2,6 +2,7 @@
 body {
     background-color: white;
     position:sticky;
+    
 
 }
 
@@ -12,6 +13,7 @@ body {
     width: 50%;
     cursor: pointer;
     justify-content: space-between;
+    border-bottom: solid 1px black;
     
 }
 
