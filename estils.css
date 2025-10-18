@@ -2,8 +2,9 @@
 body {
     background-color: white;
     position:sticky;
-    
-
+    min-height: 200vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /*Comenzemos con el menu principal*/
@@ -20,6 +21,87 @@ body {
 
 .linea_menu{
     border-bottom: solid 1px black;
+}
+
+/* --- BARRA SUPERIOR --- */
+.top-bar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  padding: 10px 0;
+}
+
+.nav-top a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+/* --- BARRA INFERIOR STICKY CON EFECTO "FROZEN GLASS" --- */
+.bottom-bar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px); /* 🔹 Efecto de vidrio */
+  background-color: rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  z-index: 1000;
+}
+
+.bottom-bar .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-bar .logo {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-bar h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bottom-bar .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-bar .right a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.buy-btn {
+  background-color: #ff3b6a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* --- HERO (parte principal, solo para ver el efecto scroll) --- */
+.hero {
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
 }
 
 
