@@ -9,19 +9,7 @@ body {
 
 /*Comenzemos con el menu principal*/
 
-.primer_menu {
-    display: flex;
-    width: 50%;
-    cursor: pointer;
-    justify-content: space-between;
-    border-bottom: solid 1px black;
-    padding-bottom: 17px;
-    
-}
 
-.linea_menu{
-    border-bottom: solid 1px black;
-}
 
 /* --- BARRA SUPERIOR --- */
 .top-bar {
