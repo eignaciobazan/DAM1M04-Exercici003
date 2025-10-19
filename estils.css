@@ -95,16 +95,56 @@ body {
 
 /* --- HERO (parte principal, solo para ver el efecto scroll) --- */
 .hero {
-  min-height: 150vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; /* 🔹 ordena elementos verticalmente */
+  align-items: center;    /* 🔹 centra horizontalmente */
   justify-content: center;
   text-align: center;
-  padding: 40px;
+  padding: 80px 20px;
+  gap: 40px; /* 🔹 espacio entre los elementos */
 }
 
+/* --- TITULO PRINCIPAL --- */
+.titulo-principal {
+  font-size: 40px;
+  font-weight: 700;
+  color: #111;
+  max-width: 650px;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+/* --- IMAGEN CENTRAL --- */
 .imagen-central {
-  
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* --- DESCRIPCIÓN --- */
+.descripcion {
+  max-width: 720px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* --- BOTÓN DE COMPRA --- */
+.buy-btn {
+  background-color: #ff3b6a;
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #e9335f;
 }
 
