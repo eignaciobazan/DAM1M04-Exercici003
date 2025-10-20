@@ -136,3 +136,46 @@ body {
   background-color: #e9335f;
 }
 
+/*Cuerpo de la siguiente pagina*/
+.dark-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #000; /* 🔹 Fondo negro */
+  color: #fff;           /* 🔹 Texto blanco para contraste */
+  min-height: 200vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+  padding: 100px 40px;   /* 🔹 Espaciado interno */
+  text-align: center;    /* 🔹 Centra el texto */
+}
+
+.pag2 {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  gap: 20px;
+}
+
+.titulo {
+    font-size: 64px;
+    max-width: 724px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descripcion2{
+  width: 80%;
+  max-width: 830px;
+  margin-top: -40px;
+  font-size: 20px;
+  color: gray;
+  
+
+
+
+
+
+}
