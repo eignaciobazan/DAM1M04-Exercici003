@@ -2,24 +2,180 @@
 body {
     background-color: white;
     position:sticky;
-    
-
+    min-height: 200vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /*Comenzemos con el menu principal*/
 
-.primer_menu {
-    display: flex;
-    width: 50%;
-    cursor: pointer;
-    justify-content: space-between;
-    border-bottom: solid 1px black;
-    padding-bottom: 17px;
-    
+
+
+/* --- BARRA SUPERIOR --- */
+.top-bar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
 }
 
-.linea_menu{
-    border-bottom: solid 1px black;
+.nav-top {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  padding: 10px 0;
 }
 
+.nav-top a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
 
+/* --- BARRA INFERIOR STICKY CON EFECTO "FROZEN GLASS" --- */
+.bottom-bar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px); /* 🔹 Efecto de vidrio */
+  background-color: rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  z-index: 1000;
+}
+
+.bottom-bar .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-bar .logo {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-bar h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bottom-bar .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-bar .right a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.buy-btn {
+  background-color: #ff3b6a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* --- HERO (parte principal, solo para ver el efecto scroll) --- */
+.hero {
+  display: flex;
+  flex-direction: column; /* 🔹 ordena elementos uno debajo del otro */
+  align-items: center;    /* 🔹 Centra todos los elementos horizontalmente dentro del .hero*/
+  justify-content: center;  /*Centra el contenido verticalmente dentro del .hero */
+  text-align: center;
+  padding: 80px 20px; /* agrega espacio entre arriba y abajo*/
+  gap: 40px; /* 🔹 espacio entre los elementos */
+}
+
+/* --- TITULO PRINCIPAL --- */
+.titulo-principal {
+  font-size: 40px; /* Tamaño del texto. Cuanto mayor el valor, más grande se ve la fuente.*/
+  font-weight: 700;/*Define el grosor de la letra (700 ≈ negrita fuerte).*/
+  color: #111;/* Color del texto (gris muy oscuro)*/
+  max-width: 650px;/* Limita el ancho máximo del texto. Evita que las líneas sean demasiado largas.*/
+  line-height: 1.2;/* Define la altura de línea (espacio vertical entre líneas de texto*/
+  margin: 0 auto;/* Quita márgenes verticales y centra el bloque horizontalmente (funciona junto con max-width).*/
+}
+
+/* --- IMAGEN CENTRAL --- */
+.imagen-central {
+  width: 80%; /* Hace que la imagen ocupe el 80% del ancho disponible del contenedor*/
+  max-width: 900px; /*No deja que crezca más de 900px de ancho, incluso en pantallas grandes*/
+  height: auto; /* Mantiene la proporción original de la imagen (evita que se deforme).*/
+  display: block; /* Elimina pequeños espacios que aparecen con imágenes en línea*/
+  border-radius: 10px;/* Redondea ligeramente las esquinas de la imagen.*/
+}
+
+/* --- DESCRIPCIÓN --- */
+.descripcion {
+  max-width: 720px; /*Limita el ancho para que el texto sea más fácil de leer. */
+  color: #333;/*Color del texto (gris oscuro, más suave que negro) */
+  font-size: 16px; /*Tamaño de fuente del párrafo*/
+  line-height: 1.6; /*Espaciado vertical entre líneas, mejora la legibilidad */
+  margin-top: 10px; /*Agrega un pequeño espacio por encima del párrafo, separándolo del elemento anterior. */
+}
+
+/* --- BOTÓN DE COMPRA --- */
+.buy-btn {
+  background-color: #ff3b6a;
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #e9335f;
+}
+
+/*Cuerpo de la siguiente pagina*/
+.dark-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #000; /* 🔹 Fondo negro */
+  color: #fff;           /* 🔹 Texto blanco para contraste */
+  min-height: 200vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+  padding: 100px 40px;   /* 🔹 Espaciado interno */
+  text-align: center;    /* 🔹 Centra el texto */
+}
+
+.pag2 {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  gap: 20px;
+}
+
+.titulo {
+    font-size: 64px;
+    max-width: 724px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descripcion2{
+  width: 80%;
+  max-width: 830px;
+  margin-top: -40px;
+  font-size: 20px;
+  color: gray;
+  
+
+
+
+
+
+}
