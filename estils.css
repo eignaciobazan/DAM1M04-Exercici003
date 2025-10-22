@@ -172,10 +172,13 @@ body {
   margin-top: -40px;
   font-size: 20px;
   color: gray;
+}
+
+.imagen2 {
+  width: 80%;
+  max-width: 1400px;
+  height: auto;
+  display: auto;
   
-
-
-
-
-
+  
 }
