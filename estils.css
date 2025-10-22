@@ -168,26 +168,52 @@ body {
 
 .descripcion2{
   width: 80%;
-  max-width: 730px;
+  max-width: 700px;
   margin-top: -40px;
   font-size: 20px;
   color: gray;
 }
 
 .imagen2 {
-  width: 80%;
-  max-width: 1400px;
+  width: 130%;
+  max-width: 3000px;
   height: auto;
   display: auto;
   
   
 }
 
-.caja2{
-  background-color: gray;
+.orden{
   display: flex;
-  flex-direction: row;
-  padding: 200px 200px;
-  border-radius: 30px;
+  gap: 40px;
+  }
 
+.caja2 {
+    background-color: rgb(35, 34, 34);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: auto;
+    border-radius: 30px;
+    gap: 15px;
+    width: 80%;
+    max-width: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+ .titulito{
+  font-size: 25px;
+  width: 70%;  
+  
+   
+}
+
+ .descripcion {
+  width: 80%;
+  max-width: 700px;
+  margin-top: -40px;
+  font-size: 20px;
+  color: rgb(222, 221, 221);
 }
