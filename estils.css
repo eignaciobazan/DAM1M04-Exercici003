@@ -182,3 +182,12 @@ body {
   
   
 }
+
+.caja2{
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  padding: 200px 200px;
+  border-radius: 30px;
+
+}
