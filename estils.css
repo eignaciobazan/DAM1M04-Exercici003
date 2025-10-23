@@ -114,7 +114,7 @@ body {
 /* --- DESCRIPCIÓN --- */
 .descripcion {
   max-width: 720px; /*Limita el ancho para que el texto sea más fácil de leer. */
-  color: #333;/*Color del texto (gris oscuro, más suave que negro) */
+  color: #2c2b2b;/*Color del texto (gris oscuro, más suave que negro) */
   font-size: 16px; /*Tamaño de fuente del párrafo*/
   line-height: 1.6; /*Espaciado vertical entre líneas, mejora la legibilidad */
   margin-top: 10px; /*Agrega un pequeño espacio por encima del párrafo, separándolo del elemento anterior. */
@@ -144,7 +144,7 @@ body {
   padding: 80px 20px;
   background-color: #000; /* 🔹 Fondo negro */
   color: #fff;           /* 🔹 Texto blanco para contraste */
-  min-height: 200vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+  min-height: 400vh; /* vh = alto del viewport; 200vh = 2 pantallas */
   padding: 100px 40px;   /* 🔹 Espaciado interno */
   text-align: center;    /* 🔹 Centra el texto */
 }
@@ -210,10 +210,72 @@ body {
    
 }
 
- .descripcion {
+ .descripcion3 {
   width: 80%;
   max-width: 700px;
   margin-top: -40px;
   font-size: 20px;
   color: rgb(222, 221, 221);
 }
+
+.imagen3{
+  width: 80%;
+  max-width: 400px;
+  border-radius: 20px;
+  margin-top: 30px;
+
+}
+
+.imagen4{
+  display: flex;
+  margin-right: 170px;
+  width: 80%;
+  max-width: 100px;
+  border-radius: 20px;
+  margin-top: 30px;
+
+}
+
+.caja3 {
+    background-color: rgb(35, 34, 34);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-top: 30px;
+    gap: 15px;
+    width: 50%;
+    max-width: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+/*----Siguiente parte de la parte negra----*/
+
+.dark-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #000; /* 🔹 Fondo negro */
+  color: #fff;           /* 🔹 Texto blanco para contraste */
+  min-height: 300vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+  padding: 100px 40px;   /* 🔹 Espaciado interno */
+  text-align: center;    /* 🔹 Centra el texto */
+}
+
+.caja4{
+  width: 100%;
+  max-width: 2000px;
+  background-color: wheat;
+  padding: 30px;
+}
+
+.cajitas{
+  width: 80%;
+  background-color: #000000;
+
+}
+
+
+
