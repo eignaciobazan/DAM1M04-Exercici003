@@ -354,5 +354,31 @@ body {
     padding: 100px;
     border-radius: 30px;
 }
+
+.white-section .caja{
+  
+        display: flex;
+    background-color: gainsboro;
+    text-align: initial;
+}
+
+.contenedor{
+  display: flex;
+    width: 80%;
+    max-width: 900px;
+    align-content: space-between;
+    flex-wrap: wrap;
+ 
+  }
+  .contenedor div{
+  display: flex;
+  
+  }
+.ima{
+  width: 80%;
+  max-width: 300px;
+  }
+
+  
   
   
