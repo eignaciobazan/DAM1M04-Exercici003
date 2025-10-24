@@ -321,4 +321,38 @@ body {
   max-width: 40px;
   }  
 
+.letritas{
+  color: blue;
+  }
+.letritas p{
+  cursor: pointer;
+  }
 
+.white-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #fbf7f7; /* 🔹 Fondo negro */
+  color: #010101;           /* 🔹 Texto blanco para contraste */
+  min-height: 300vh; /* vh = alto del viewport; 200vh = 2 pantallas */
+  padding: 100px 40px;   /* 🔹 Espaciado interno */
+  text-align: center;    /* 🔹 Centra el texto */
+}
+
+.white-section p{
+
+    width: 80%;
+    max-width: 800px;
+    font-size: x-large;
+}
+
+.white-section img{
+  
+    width: 100%;
+    max-width: 1000px;
+    padding: 100px;
+    border-radius: 30px;
+}
+  
+  
