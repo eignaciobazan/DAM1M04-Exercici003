@@ -300,6 +300,9 @@ body {
 .card p {
   color: #5c5757;
   }
+.card img{
+  max-width: 40px;
+  }
 .cardl {
   background-color: black;
   color: white;
@@ -313,5 +316,8 @@ body {
 .cardl p {
   color: #5c5757;
   }
+.cardl img{
+  max-width: 40px;
+  }  
 
 
