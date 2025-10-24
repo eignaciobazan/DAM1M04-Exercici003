@@ -266,7 +266,7 @@ body {
 
 /* Contenedor general */
 .caja4 {
-  width: 100%;
+  width: 80%;
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center; /* Centra las tarjetas dentro */
@@ -290,7 +290,7 @@ body {
   padding: 40px;
   width: 300px;          /* 🔹 Ancho base */
   flex: 1 1 260px;       /* 🔹 Flexibilidad: crece o se reduce, pero mínimo 260px */
-  text-align: center;
+  text-align: initial;
 }
 
 .card h3 {
@@ -300,6 +300,18 @@ body {
 .card p {
   color: #5c5757;
   }
-
+.cardl {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 40px;
+  width: 300px;          /* 🔹 Ancho base */
+  flex: 1 1 260px;       /* 🔹 Flexibilidad: crece o se reduce, pero mínimo 260px */
+  text-align: initial;
+  margin-left: -700px;
+}
+.cardl p {
+  color: #5c5757;
+  }
 
 
