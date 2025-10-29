@@ -162,10 +162,10 @@ h1{
   display: auto;
 }
 .boxes{
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;  
+ 
 }
 .box {
   background-color: rgb(35, 34, 34);
