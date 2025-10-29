@@ -163,8 +163,11 @@ h1{
 }
 .boxes{
   display: flex;
+  flex-direction: column;
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
+ 
   justify-content: center;
 }
 .box {
