@@ -136,7 +136,6 @@ h1{
   align-items: center;
   padding: 80px 20px;
   color: white;
-  min-height: 400vh;
   padding: 100px 40px;  
   text-align: center;
   max-width: 1264px;
@@ -201,10 +200,11 @@ h1{
   flex-wrap: wrap;
   border-radius: 30px;
   gap: 15px;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   flex: 1 1 100%;
   max-width: 910px;
+  overflow: hidden;
 }
 .img3 {
   display: flex;
@@ -214,11 +214,10 @@ h1{
 }
 .box1-text {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   text-align: left;
-  max-width: 50%;
-  height: 100%;
 }
 .box1-text  h2 {
   font-size: 19px;
@@ -233,9 +232,10 @@ h1{
   line-height: 1.5;
 }
 .video {
-  border-radius: 30px;
+  flex: 1;
   width: 420px;
   height: 342px;
+  object-fit: cover;
 }
 
 
@@ -257,7 +257,6 @@ h1{
   gap: 40px;             
   max-width: 1200px;
   margin: 0 auto; 
-
 }
 .card {
   border-radius: 30px;
@@ -288,13 +287,16 @@ h1{
   flex-direction: column;
   align-items: center;
   padding: 80px 20px;
-  color: #010101;
-  padding: 100px 40px;
+  color: black;
+  padding: 100px 40px;  
   text-align: center;
+  max-width: 1264px;
+  margin: 0 auto;
 }
 .img5{
-  width: 80%;
-  max-width: 300px;
+  max-width: 1100px;
+  border-radius: 30px;
+  padding: 40px;
 }
 .white-section p{
   width: 80%;
@@ -302,25 +304,46 @@ h1{
   font-size: 20px;
   line-height: 1.5;
 }
-.white-section img{
-  max-width: 50%;
-  border-radius: 30px;
-  padding: 40px;
-}
-
-.white{
+.box1.white{
   background-color: #f5f5f5;
+  gap: 0;
 }
 p.grey-text{
   color: #333333;
 }
 .white-text{
   color: white;
+  flex: 1;
+}
+.box-image{
+  position: relative;
+  border-radius: 30px;
+  max-width: 400px;
+  flex: 1 1 400px;
+  overflow: hidden;
+  background-color: #2f434b;
 }
 .img6{
-  width: 400px;
-  height: auto;
+  flex: 1;
+  width: 410px;
+  height: 310px;
+  object-fit: cover;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
 }
-.blue {
-  background-color: #2f434b;
+.img7{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding-top: 60px;
+  padding-left: 40px;
+  left: 0;
+}
+.description-img{
+  position: relative;
+  color: rgb(189, 189, 189);
+  font-size: 17px;
+  line-height: 1.5;
+  padding: 20px;
+  z-index: 1
 }
