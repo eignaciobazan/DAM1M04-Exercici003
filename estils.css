@@ -1,3 +1,25 @@
+/* Estils que només s'apliquen a "Mòbil" */
+@media (max-width: 768px) {
+  body {
+    background: #a2ff17ff;
+  }
+
+  p {
+    font-size: 1.125rem;
+    max-width: 700px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*Cuerpo de primera pàgina*/
 body {
   background-color: white;
   position:static;
@@ -15,7 +37,7 @@ body {
   align-items: center;
   gap: 160px;
   padding: 20px 0;
-  width: 1000px;
+  width: 700px;
   margin: 0 auto;
   border-bottom: 1px solid #ddd;
 }
