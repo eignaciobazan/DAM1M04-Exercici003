@@ -1,3 +1,27 @@
+/* Base: mòbil (columnes apilades) */
+.boxes1 {
+  display: flex;
+  flex-wrap: wrap;   /* stack */
+  gap: 1rem;
+  background-color: green;
+}
+
+
+@media (max-width: 768px) {
+  .boxes1 {
+    display: flex;
+    flex-direction: row;    /* Aquì quiero que haga un salto de liniea*/
+    background-color: red;
+  }
+}
+@media (min-width: 768px) {
+  .boxes1 {
+    display: flex;
+    flex-direction: row;    /* Aquì quiero que haga un salto de liniea*/
+    background-color: purple;
+  }
+}
+
 
 
 
