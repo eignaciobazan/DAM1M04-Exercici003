@@ -1,26 +1,7 @@
 
-@media (max-width: 768px) {
-  .boxes{
-    margin-left: -181px;
-    
-    
-  }
-  .box {      
-  }
-  .box h2{
-    background-color: #e9335f;
-    
-  }
-  .descripcion2{
-
-    background-color: cyan;
-    
-  }
 
 
-
-  
-}
+/*Fin de mobil*/
 
 
 
@@ -212,11 +193,43 @@ h1{
   margin: 30px;
   margin-bottom: -20px;
 }
+
 .descripcion2 {
   font-size: 17px;
   color: rgb(189, 189, 189);
   margin: 30px;
   line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap:30px;
+    background-color: blue;
+    
+    
+  }
+  .box {  
+    padding:5px;    
+
+  }
+  .box h2{
+    background-color: #e9335f;
+    font-size: 0.9rem;
+    
+  }
+  .descripcion2{
+
+    background-color: cyan;
+    font-size: 0.55 rem;
+    
+  }
+
+
+
+  
 }
 .img2{
   width: 80%;
