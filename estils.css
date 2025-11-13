@@ -1,14 +1,3 @@
-
-
-
-/*Fin de mobil*/
-
-
-
-
-
-
-
 body {
   background-color: white;
   position:static;
@@ -137,6 +126,16 @@ h1{
   color: white;
   background-color: #e9335f;
 }
+@media (max-width: 768px) {
+  .nav-top{
+    
+  }
+  .nav-top a{
+    font-size: 0.rem;
+  }
+}
+
+
 
 
 .background-dark-section{
@@ -216,6 +215,7 @@ h1{
     align-content: space-between;
     gap:30px;
     margin-top: 20px;
+    max-width: 100%;
     
     
   }
@@ -236,7 +236,7 @@ h1{
   .img2 {
     
   }
-
+ 
   
 }
 
@@ -296,19 +296,21 @@ h1{
   height: auto;
 }
 .boxes1 {
-  width: 80%;
+  min-width: 25%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   gap: 40px;             
   max-width: 1200px;
   margin: 0 auto; 
+  margin-left: -25px;
+
 }
 .card {
   border-radius: 30px;
   width: 350px;
   text-align: left;
   margin-left: 80px;
+
 }
 
 
@@ -331,6 +333,11 @@ h1{
 }
 
 @media (max-width: 768px) {
+  .dark-section{
+    display: flex;
+    flex-direction: column;
+  }
+
 .boxes1{
   display: flex;
   flex-wrap: wrap;
