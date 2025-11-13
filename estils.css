@@ -216,9 +216,13 @@ h1{
     align-content: space-between;
     gap:30px;
     margin-top: 20px;
+    
+    
   }
   .box {  
     margin-top: 20px;
+    flex: 1 1;
+    
   }
   .box h2{
     font-size: 1.9rem;
@@ -226,6 +230,7 @@ h1{
   }
   .descripcion2{
     font-size: 0.55 rem; 
+
   }
 
   .img2 {
@@ -305,6 +310,14 @@ h1{
   text-align: left;
   margin-left: 80px;
 }
+@media (max-width: 768px) {
+  .card {
+    margin-left: 0px;
+    min-width: 25%;
+    justify-content: flex-start;
+  }
+
+}
 .dark-section2 a{
   font-size: 18px;
   padding-top: 60px;
@@ -327,18 +340,23 @@ h1{
 .boxes1{
   display: flex;
   flex-wrap: wrap;
-  padding: 300px;
-  margin-top: -280px;
+  padding: 200px;
+  width: calc(100%-400px);
+  margin-top: -180px;
   margin-left: -220px;
+  margin-right: -220px;
+  align-items: flex-start;
+  justify-content: space-between;
+  
   
 }
 
 .card{
   display: flex;
-  flex: 1 1 150px;
+  flex: 1 1 0px;
   flex-direction: column;
-  flex-wrap: wrap;
   font-size: 0.7rem;
+  
   
 }
 
