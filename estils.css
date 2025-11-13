@@ -201,36 +201,6 @@ h1{
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  .boxes{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    gap:30px;
-    background-color: blue;
-    
-    
-  }
-  .box {  
-    padding:5px;    
-
-  }
-  .box h2{
-    background-color: #e9335f;
-    font-size: 0.9rem;
-    
-  }
-  .descripcion2{
-
-    background-color: cyan;
-    font-size: 0.55 rem;
-    
-  }
-
-
-
-  
-}
 .img2{
   width: 80%;
   max-width: 400px;
@@ -238,6 +208,33 @@ h1{
   align-self: center;
   margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+  .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap:30px;
+    margin-top: 20px;
+  }
+  .box {  
+    margin-top: 20px;
+  }
+  .box h2{
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  .descripcion2{
+    font-size: 0.55 rem; 
+  }
+
+  .img2 {
+    
+  }
+
+  
+}
+
 .box1 {
   background-color: rgb(35, 34, 34);
   display: flex;
@@ -324,6 +321,35 @@ h1{
 }
 .card img{
   max-width: 40px;
+}
+
+@media (max-width: 768px) {
+.boxes1{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 300px;
+  margin-top: -280px;
+  margin-left: -220px;
+  
+}
+
+.card{
+  display: flex;
+  flex: 1 1 150px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  
+}
+
+.card p{
+  font-size: 0.8rem;
+}
+
+
+
+
+
 }
 
 .white-section {
