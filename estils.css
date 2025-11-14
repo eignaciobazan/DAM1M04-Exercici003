@@ -137,6 +137,15 @@ h1{
     min-width: 25%;
     font-size: 3rem;
   }
+  .top-bar .nav-top{
+    display: flex;
+    gap:1px
+  }
+  .bottom-bar .bottom-bar-inside{
+    display: flex;
+    flex-direction: column;
+    
+  }
 }
 
 
