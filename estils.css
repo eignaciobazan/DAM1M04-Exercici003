@@ -133,6 +133,10 @@ h1{
   .nav-top a{
     font-size: 0.rem;
   }
+  .first-section h1{
+    min-width: 25%;
+    font-size: 3rem;
+  }
 }
 
 
