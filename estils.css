@@ -127,9 +127,6 @@ h1{
   background-color: #e9335f;
 }
 @media (max-width: 768px) {
-  .nav-top{
-    
-  }
   .nav-top a{
     font-size: 0.rem;
   }
@@ -248,11 +245,6 @@ h1{
 
   }
 
-  .img2 {
-    
-  }
- 
-  
 }
 
 .box1 {
@@ -465,8 +457,10 @@ p.grey-text{
   color: rgb(189, 189, 189);
   font-size: 17px;
   line-height: 1.5;
-  padding: 20px;
-  z-index: 1
+  padding-left: 50px;
+  padding-top: 200px;
+  z-index: 1;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
