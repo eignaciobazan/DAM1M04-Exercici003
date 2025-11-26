@@ -465,8 +465,14 @@ p.grey-text{
   color: rgb(189, 189, 189);
   font-size: 17px;
   line-height: 1.5;
-  padding: 20px;
-  z-index: 1
+  padding-top: 200px;
+  padding-left: 50px;
+  text-align: left;
+  z-index: 1;
+}
+.box.white{
+  background-color: #f5f5f5;
+  gap: 0;
 }
 
 @media (max-width: 768px) {
